@@ -1,71 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conta Gotas</title>
-    <link rel="stylesheet" href="./STYLE..CSS">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./STYLE..CSS" />
+  </head>
+  <body>
     <header>
       <div id="logos">
-        <img src="./imagens/Logos/Conta Gotas/logo_conta_gotas.png" alt="">
-        <img src="./imagens/Logos/Liquefeito/logo_liquefeito.png" alt="">
+        <img src="./imagens/Logos/Conta Gotas/logo_conta_gotas.png" alt="" />
+        <img src="./imagens/Logos/Liquefeito/logo_liquefeito.png" alt="" />
       </div>
       <nav>
-      <ul id="menu">
-        <li>Home</li>
-        <li>Como economizar</li>
-        <li>Jogos</li>
-      </ul>
+        <ul id="menu">
+          <li>Home</li>
+          <li>Como economizar</li>
+          <li>Jogos</li>
+        </ul>
       </nav>
-
     </header>
-    
-    
+
     <main>
-     <div id="geral">
-     <div id="video">
-       <h1>Conheça nosso projeto</h1>
-     </div>
-      <div id="lado-direito">
-        <div id="redes">
-        <h1>Redes Sociais</h1>
+      <div id="geral">
+        <div id="video">
+          <h1>Conheça nosso projeto</h1>
+          <!-- <img src="./imagens/Players de Video/4.jpg" alt=""> -->
+          <iframe
+            width="700"
+            height="350"
+            src="https://www.youtube.com/embed/WbJe7ZYyZSk?si=3MoUK6AWCaqgC6WX&amp;start=5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
-        <div id="login">
-         <h1>Faça seu login</h1>
+        <div id="lado-direito">
+          <div id="redes">
+            <h1>Redes Sociais</h1>
+            <img src="./imagens/redes/Facebook.png" alt="">
+            <img src="./imagens/redes/Instagram.png" alt="">
+            <img src="./imagens/redes/LinkedIn.png" alt="">
+            <img src="./imagens/redes/TikTok.png" alt="">
+            <img src="./imagens/redes/X.png" alt="">
+            <img src="./imagens/redes/YouTube.png" alt="">
+          </div>
+          <hr>
+          <div id="login">
+            <h1>Faça seu login</h1>
+            <p>Não tem cadastro? <a href="#">Seja um voluntário</a></p>
+            <input type="email" name="email" placeholder="Email" class="opcoes">
+            <input type="password" name="senha" placeholder="Senha" class="opcoes">
+            <div id="mais">
+              <label for="">
+                <input type="checkbox" name="lembrar" id="lembrar"> lembrar me
+              </label>
+              <a href="#"> Esqueceu a senha? </a>
+            </div>
+            <button> Entrar </button>
+          </div>
+        </div>
+        <div id="apoio">
+          <h1>Apoio</h1>
+          <img src="./imagens/Apoio/acer.png" alt="">
+          <img src="./imagens/Apoio/alibaba.png" alt="">
+          <img src="./imagens/Apoio/canon.png" alt="">
+          <img src="./imagens/Apoio/compac.png" alt="">
+          <img src="./imagens/Apoio/hp.png" alt="">
         </div>
       </div>
-      <div id="apoio">
-        <h1>Apoio</h1>
-      </div>
-     </div>
     </main>
-    
-    
+
     <footer>
       <div class="item">
-      <h1>Sobre nós</h1>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum exercitationem quia consectetur officia magni laudantium optio consequatur repellendus facere similique incidunt fugit, enim impedit amet nobis! Tenetur, quos quisquam!</p>
-      <img src="./imagens/Logos/Conta Gotas/logo_conta_gotas.png" alt="">
+        <h1>Sobre nós</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+          rerum exercitationem quia consectetur officia magni laudantium optio
+          consequatur repellendus facere similique incidunt fugit, enim impedit
+          amet nobis! Tenetur, quos quisquam!
+        </p>
+        <img src="./imagens/Logos/Conta Gotas/logo_conta_gotas.png" alt="" />
       </div>
-    <div class="item">
-      <h1>Mapa do site</h1>
-      <h2>HOME</h2>
-      <h2>COMO ECONOMIZAR</h2>
-      <h2>JOGOS</h2>
-      <h2>CADASTRO</h2>
-      <h2>LOGIN</h2>
-    </div>
-    <div class="item">
-      <h1>Contato</h1>
-      <p>Telefone: 85 4002-8922</p>
-      <p>Whatsapp: 27 97070-7070</p>
-      <p>Email: contagotas@gmail.com</p>
-      <p>Endereço: <br>Av. Mal. Mascarenhas de Moraes, <br> 2235 - Bento Ferreira, Vitória - ES</p>
-      <p>Segunda a sexta, das 7h às 20h <br> Exceto feriados nacionais e locais</p>
-    </div>
+      <div class="item">
+        <h1>Mapa do site</h1>
+        <h2>HOME</h2>
+        <h2>COMO ECONOMIZAR</h2>
+        <h2>JOGOS</h2>
+        <h2>CADASTRO</h2>
+        <h2>LOGIN</h2>
+      </div>
+      <div class="item">
+        <h1>Contato</h1>
+        <p>Telefone: 85 4002-8922</p>
+        <p>Whatsapp: 27 97070-7070</p>
+        <p>Email: contagotas@gmail.com</p>
+        <p>
+          Endereço: <br />Av. Mal. Mascarenhas de Moraes, <br />
+          2235 - Bento Ferreira, Vitória - ES
+        </p>
+        <p>
+          Segunda a sexta, das 7h às 20h <br />
+          Exceto feriados nacionais e locais
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
